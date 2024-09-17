@@ -1,0 +1,22 @@
+{
+  "name": "deploy-orchestrator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@aws-sdk/client-ecs": "^3.651.1",
+    "@clickhouse/client": "^1.6.0",
+    "@launch-pad/prisma-schema": "^1.0.0",
+    "@prisma/client": "^5.19.1",
+    "express": "^4.21.0",
+    "kafkajs": "^2.2.4",
+    "random-word-slugs": "^0.1.7",
+    "zod": "^3.23.8"
+  }
+}
